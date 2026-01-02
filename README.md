@@ -2,12 +2,12 @@
 
 Projeto front-end que consome a API OpenWeather para exibir informações climáticas em tempo real, com interface moderna e animações dinâmicas conforme o clima.
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Projeto acadêmico e de portfólio desenvolvido para praticar consumo de API REST, JavaScript assíncrono e manipulação do DOM.  
 Permite ao usuário consultar o clima de qualquer cidade, exibindo dados atualizados de forma simples e intuitiva.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Consulta de clima por cidade  
 - Exibição de temperatura atual, mínima e máxima  
@@ -16,7 +16,7 @@ Permite ao usuário consultar o clima de qualquer cidade, exibindo dados atualiz
 - Ícones e animações dinâmicas conforme o clima  
 - Interface responsiva e amigável  
 
-## 👤 Como o usuário utiliza o sistema
+## Como o usuário utiliza o sistema
 
 1. Acessa o site pelo navegador  
 2. Digita o nome da cidade desejada  
@@ -24,7 +24,7 @@ Permite ao usuário consultar o clima de qualquer cidade, exibindo dados atualiz
 4. Visualiza as informações climáticas em tempo real  
 5. Observa mudanças visuais conforme o clima atual  
 
-## ⚠️ Principais dificuldades encontradas
+## Principais dificuldades encontradas
 
 - Consumo e tratamento de dados da API OpenWeather  
 - Manipulação de dados JSON  
@@ -41,9 +41,9 @@ Permite ao usuário consultar o clima de qualquer cidade, exibindo dados atualiz
 - OpenWeather API  
 - GitHub Pages  
 
-## 🚀 Acesse o projeto
+## Acesse o projeto
 
-👉 https://SEU_USUARIO.github.io/previsao-tempo/
+👉 [https://SEU_USUARIO.github.io/previsao-tempo/](https://mif-code.github.io/Previsao-do-Tempo/)
 
 ## 👨‍💻 Autor
 
