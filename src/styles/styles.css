@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   BODY – FUNDO DINÂMICO (JS)
+================================ */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    /* Fundo inicial neutro (JS substitui) */
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+
+    transition: background 0.6s ease;
+}
+
+/* ===============================
+   CONTAINER
+================================ */
+#container {
+    background-color: #f0f8ff;
+    border-radius: 22px;
+    padding: 18px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ===============================
+   SEARCH
+================================ */
+#search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 6px 12px;
+    background-color: #f8fafc;
+}
+
+#search input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+}
+
+#search input:focus-visible {
+    outline: none;
+}
+
+#search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===============================
+   WEATHER
+================================ */
+#weather {
+    display: none;
+    margin-top: 20px;
+}
+
+#weather.show {
+    display: block;
+}
+
+#weather #title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #372f3f;
+}
+
+/* ===============================
+   TEMPERATURA (JS CONTROLA COR)
+================================ */
+#temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+    /* Cor inicial neutra (JS sobrescreve) */
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+
+    color: #fff;
+    border-radius: 20px;
+    padding: 22px;
+
+    transition: background 0.6s ease;
+}
+
+#temp_img {
+    font-size: 72px;
+    color: #fde047; /* amarelo elegante */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.25);
+}
+
+
+#temp_value {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+#temp_description {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* ===============================
+   OUTRAS INFORMAÇÕES
+================================ */
+#other_infos {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+#other_infos .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #ffffff;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+#other_infos .info h2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#other_infos .info p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#other_infos .info i {
+    font-size: 20px;
+    width: 22%;
+    text-align: center;
+}
+
+/* ===============================
+   ÍCONES
+================================ */
+#temp_max_icon {
+    color: #b91c1c;
+}
+
+#temp_min_icon {
+    color: #0284c7;
+}
+
+#humidity_icon {
+    color: #0ea5e9;
+}
+
+#wind_icon {
+    color: #7c3aed;
+}
+
+/* ===============================
+   ALERTA
+================================ */
+#alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#alert img {
+    width: 200px;
+    margin-top: 20px;
+}
