@@ -10,4 +10,4 @@ Projeto front-end que consome a API OpenWeather para exibir informações climá
 - GitHub Pages
 
 ## 🚀 Acesse o projeto
-👉 https://SEU_USUARIO.github.io/previsaodotempo/
+👉 [https://SEU_USUARIO.github.io/previsaodotempo/](https://mif-code.github.io/Previsao-do-Tempo/)
